@@ -1,35 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
 * {
-   box-sizing: border-box; 
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
-    margin: 0px;
-    width: 1920px;
-    height: 2464px;
+    margin: 0 auto;
+    max-width: 1920px;
+    font-family:  "Roboto", sans-serif;
     background: rgb(249, 249, 249);
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-.first_container {
-    height: 700px;
+.container_header {
     background: rgb(238, 239, 241);
 } 
 
 .container_nav_menu {
-    width: 1915px;
-    height: 257px;
-    padding: 79px 870px 151px 399px;
+    padding-top: 79px;
+    padding-left: 15px;
+    margin-bottom: 159px;
     background: rgb(238, 239, 241);
 }
 
 .container_menu {
     display: inline-block;
-    width: auto;
 }
 
 .style_menu {
     padding-right: 42px;
-    /* font-family: Arial, Helvetica, sans-serif; */
+    color: rgb(0, 0, 0);
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
@@ -48,19 +48,16 @@ body {
 }
 
 .page_title {
-    height: 105px;
-    padding: 0px 980px 60px 399px;
-    /* font-family: Arial, Helvetica, sans-serif; */
+    padding-left: 15px;
+    margin-bottom: 49px;
     font-size: 48px;
     font-weight: 500;
     line-height: 56px;
-    text-align: left;
 }
 
 .first_screen_text {
-    height: 132px;
-    padding: 0px 980px 65px 400px;
-    /* font-family:  Arial, Helvetica, sans-serif; */
+    padding-left: 15px;
+    margin-bottom: 94px;
     color: rgb(114, 114, 114);
     font-size: 16px;
     font-weight: 400;
@@ -69,36 +66,32 @@ body {
 }
 
 form {
-    height: 206px;
-    padding-left: 399px;
+    padding-left: 15px;
     padding-bottom: 141px;
 }
 
 .first_screen_button {
-    width: 225px;
-    height: 65px;
-    padding: 16px 41px 23px;
+    max-width: 225px;
+    min-height: 65px;
+    padding: 19px 41px 20px;
     background: rgb(52, 84, 122);
     color: rgb(255, 255, 255);
-    /* font-family: Arial, Helvetica, sans-serif; */
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     text-align: center;
     cursor: pointer;
     border: none;
 }
 
 .container_about_me {
-    height: 359px;
-    padding: 112px 690px 100px;
+    margin-top: 112px;
+    margin-bottom: 110px;
 }
 
 .style_about_me {
-    height: 80px;
-    padding-bottom: 50px;
-    /* font-family: Arial, Helvetica, sans-serif; */
+    padding-bottom: 42px;
     font-size: 32px;
     font-weight: 500;
     line-height: 38px;
@@ -106,9 +99,7 @@ form {
 }
 
 .style_text_about_me {
-    height: 67px;
     color: rgb(114, 114, 114);
-    /* font-family: Arial, Helvetica, sans-serif; */
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
@@ -116,18 +107,13 @@ form {
 }
 
 .container_numbers {
-    height: 250px;
     background: rgb(52, 84, 122);
-    padding: 100px 0px;
-    text-align: center;
+    padding-left: 15px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 /* copy */
-.container {
-    margin: 0 auto;
-    max-width: 1200px;
-}
-
 .project-group {
     font-size: 0;
 }
@@ -139,11 +125,19 @@ form {
 }
 
 .project-heading {
-    font-size: 20px;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 25px;  
+}
+
+.text_projects {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
 }
 
 .project-group img {
-    width: 50px;
+    width: 46.67px;
     height: 50px;
     display: inline-block;
     margin-right: 10px;
@@ -153,22 +147,15 @@ form {
     color: #ffffff;
     display: inline-block;
 }
-/* copy end */
-
-/* .container_for_png {
-    display: inline-block;
-    padding-right: 49px;
-} */
+/* end copy */
 
 .container_how_do_I_work {
-    height: 304px;
-    padding: 100px 690px 57px;
+    margin-top: 96px;
+    margin-bottom: 57px;
 }
 
 .style_how_do_I_work {
-    height: 80px;
-    padding-bottom: 50px;
-    /* font-family: Arial, Helvetica, sans-serif; */
+    margin-bottom: 42px;
     font-size: 32px;
     font-weight: 500;
     line-height: 38px;
@@ -176,9 +163,7 @@ form {
 }
 
 .style_text_how_do_I_work {
-    height: 67px;
     color: rgb(114, 114, 114);
-    /* font-family: Arial, Helvetica, sans-serif; */
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
@@ -186,14 +171,15 @@ form {
 }
 
 .container_video {
-    height: 700px;
-    padding: 0px 405px 100px;
+    margin-top: 86px;
+    margin-bottom: 100px;
+    text-align: center;
+    overflow: hidden;
 }
 
 .container_footer {
-    height: 151px;
     padding-top: 50px;
-    padding-left: 406px;
+    padding-left: 15px;
     background: rgb(52, 84, 122);
 }
 
@@ -205,7 +191,8 @@ form {
 }
 
 .footer_text_2 {
-    padding-top: 16px;
+    padding-top: 20px;
+    padding-bottom: 50px;
     color: rgb(255, 255, 255);
     font-size: 13px;
     font-weight: 400;
