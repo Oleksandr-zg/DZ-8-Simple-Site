@@ -14,21 +14,23 @@
 <body>
 
     <header class="container_header">
-        <nav class="container_nav_menu">
-            <div class="container_menu"><a href="#" class="style_menu style_for_homepage">HOMEPAGE</a></div>
-            <div class="container_menu"><a href="#" class="style_menu">ABOUT AUTHOR</a></div>
-            <div class="container_menu"><a href="#" class="style_menu">WORKS</a></div>
-            <div class="container_menu"><a href="#" class="style_menu">PROCESS</a></div>
-            <div class="container_menu"><a href="#" class="style_menu style_for_contacts">CONTACTS</a></div>
-        </nav>
-        <h1 class="page_title">Design and layout</h1>
-        <p class="first_screen_text">Lorem Ipsum is fish text often used in print
-            and web design. Lorem Ipsum <br>has been the standard "fish" for Latin texts
-            since the early 16th century.
-        </p>
-        <form action="/action_page.php" name="WRITE_ME" method="get">
-            <button class="first_screen_button" type="submit" name="post" value="WRITE_ME">WRITE ME</button>
-        </form>
+        <div class="container">
+            <nav class="container_nav_menu">
+                <div class="container_menu"><a href="#" class="style_menu style_for_homepage">HOMEPAGE</a></div>
+                <div class="container_menu"><a href="#" class="style_menu">ABOUT AUTHOR</a></div>
+                <div class="container_menu"><a href="#" class="style_menu">WORKS</a></div>
+                <div class="container_menu"><a href="#" class="style_menu">PROCESS</a></div>
+                <div class="container_menu"><a href="#" class="style_menu style_for_contacts">CONTACTS</a></div>
+            </nav>
+            <h1 class="page_title">Design and layout</h1>
+            <p class="first_screen_text">Lorem Ipsum is fish text often used in print
+                and web design. Lorem Ipsum <br>has been the standard "fish" for Latin texts
+                since the early 16th century.
+            </p>
+            <form action="/action_page.php" name="WRITE_ME" method="get">
+                <button class="first_screen_button" type="submit" name="post" value="WRITE_ME">WRITE ME</button>
+            </form>
+        </div>
     </header>
 
     <main>
@@ -40,7 +42,8 @@
             </div>
         </div>
         <div class="container_numbers">
-            <!-- copy -->
+            <div class="container">
+                <!-- copy -->
                 <div class="project-group">
                     <div class="project">
                         <img src="./images/project.png" alt="project">
@@ -85,7 +88,8 @@
                         </div>
                     </div>
                 </div>
-            <!-- copy end -->
+                <!-- copy end -->
+            </div>
         </div>
         <div class="container_how_do_I_work">
             <div class="style_how_do_I_work">How do I work</div>
@@ -94,18 +98,22 @@
                 since the early 16th century.
             </div>
         </div>
-        <div class="container_video">
-            <iframe width="1110" height="600" src="https://www.youtube.com/embed/yc_RfzJc1So?si=NBGUPp7IIvtB2-Ib"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen>
-            </iframe>
+        <div class="container">
+            <div class="container_video">
+                <iframe width="1110" height="600" src="https://www.youtube.com/embed/yc_RfzJc1So?si=NBGUPp7IIvtB2-Ib"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+            </div>
         </div>
     </main>
 
     <footer class="container_footer">
-        <div class="footer_text_1">John Smith</div>
-        <div class="footer_text_2">(c) 2018. All rights reserved.</div>
+        <div class="container">
+            <div class="footer_text_1">John Smith</div>
+            <div class="footer_text_2">(c) 2018. All rights reserved.</div>
+        </div>
     </footer>
 
 </body>

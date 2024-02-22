@@ -14,13 +14,16 @@ body {
 
 .container_header {
     background: rgb(238, 239, 241);
-} 
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1115px;
+}
 
 .container_nav_menu {
     padding-top: 79px;
-    padding-left: 400px;
     margin-bottom: 159px;
-    background: rgb(238, 239, 241);
 }
 
 .container_menu {
@@ -48,7 +51,6 @@ body {
 }
 
 .page_title {
-    padding-left: 400px;
     margin-bottom: 49px;
     font-size: 48px;
     font-weight: 500;
@@ -56,7 +58,6 @@ body {
 }
 
 .first_screen_text {
-    padding-left: 400px;
     margin-bottom: 94px;
     color: rgb(114, 114, 114);
     font-size: 16px;
@@ -66,7 +67,6 @@ body {
 }
 
 form {
-    padding-left: 400px;
     padding-bottom: 141px;
 }
 
@@ -108,7 +108,6 @@ form {
 
 .container_numbers {
     background: rgb(52, 84, 122);
-    padding-left: 400px;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -173,13 +172,11 @@ form {
 .container_video {
     margin-top: 86px;
     margin-bottom: 100px;
-    text-align: center;
     overflow: hidden;
 }
 
 .container_footer {
     padding-top: 50px;
-    padding-left: 400px;
     background: rgb(52, 84, 122);
 }
 
